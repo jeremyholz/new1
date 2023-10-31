@@ -1,0 +1,39 @@
+.firstimg {
+    box-sizing: content-box;
+    border: solid blue 10px;
+    padding: 10px;
+}
+
+.thirdimg {
+    box-sizing: content-box;
+    border: solid rgb(241, 179, 179) 10px;
+    border-radius: 15px;
+}
+
+.figimg {
+    display: block;
+    max-width: 400px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+.artright,
+article:nth-child(even)>figure {
+    float: right;
+    clear: both;
+}
+
+.positionlogo {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+}
+
+
+.figcaption {
+    text-align: center;
+    clear: both;
+    color: rgb(243, 183, 220);
+}

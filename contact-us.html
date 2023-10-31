@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact-us.css">
+    <link rel="stylesheet" href="web-tools-resources/nav-menu/css/nav-menu.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Contact Us</title>
+</head>
+
+<body class="w3-theme-l3">
+    <header>
+        <h1>Contact Us</h1>
+        <img class="positionlogo" src="images/INXSlogo.jpg" alt="INXS logo">
+    </header>
+
+    <main>
+        <nav class="topnav posnav">
+            <a class="fa fa-home" href="index.html">Home</a>
+            <a href="faq.html">FAQs</a>
+            <a href="gallery.html">Gallery</a>
+            <a class="active" href="contact-us.html">Contact Us</a>
+            <a href="about-us.html">About Us</a>
+        </nav>
+        <section>
+            <h2>Webform Mailer</h2>
+            <fieldset class="fieldset">
+                <legend>Input your personal information</legend>
+                <h3>Please input your personal information</h3>
+
+                <form class="w3-container" id="mailerform" method="post" action="mailto:JHolz@Student.DallasCollege.edu">
+                    <p>
+                        <label class="w3-text-purple" title="Enter you name.">Name <input type="text" name="Name" placeholder="Name"></label>
+                    </p>
+                    <p><label class="w3-text-purple" title="Enter your email address.">E-mail <input type="text" name="Email"
+                                placeholder="Email"></label>
+                    </p>
+                    <p>
+                        <label class="w3-text-purple" for="phone">Enter a phone number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required>
+                    <p>
+                    <p>
+                        <label class="w3-text-purple" title="Ok to contact you?">Ok to contact you? <input type="checkbox"
+                                name="contactyou"></label>
+                    </p>
+                    <p>Where did you hear about the website?
+                    </p>
+                    <p>
+                        <label class="w3-text-purple" title="From school">School<input type="radio" name="hear" value="1" checked></label>
+                    </p>
+                    <p><label class="w3-text-purple" title="Something else">Other<input type="radio" name="hear" value="2"></label></p>
+                    <p>
+                        How would you rate the website?
+                    </p>
+                    <label class="w3-text-purple" for="yourrating">Your rating:</label>
+                    <select id="yourrating" name="yourrating">
+                        <option value="1" selected>1 Star</option>
+                        <option value="2">2 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="5">5 Stars</option>
+                    </select>
+                    <p>
+                        <label class="w3-text-purple" for="message">Message</label><br>
+                        <textarea id="message" name="message"></textarea>
+                    </p>
+                    <input class="w3-btn w3-indigo" type="button" value="Submit">
+                    <input class="w3-btn w3-indigo" type="button" value="Reset">
+                </form>
+            </fieldset>
+        </section>
+        <section>
+            <h2>Table</h2>
+            <table class="table w3-border w3-striped">
+                <caption class="caption">Discography for INXS</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Album</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Record Label</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><q>The Swing</q></td>
+                        <td>1984</td>
+                        <td>Atco</td>
+                    </tr>
+                    <tr>
+                        <td><q>Listen Like Thieves</q></td>
+                        <td>1985</td>
+                        <td>Atlantic</td>
+                    </tr>
+                    <tr>
+                        <td><q>Kick</q></td>
+                        <td>1987</td>
+                        <td>Atlantic</td>
+                    </tr>
+                    <tr>
+                        <td><q>X</q></td>
+                        <td>1990</td>
+                        <td>Atlantic</td>
+                    </tr>
+                    <tr>
+                        <td><q>Live Baby Live</q></td>
+                        <td>1991</td>
+                        <td>Atlantic</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Visit the <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a> website.</p>
+        <a href="mailto:JHolz@Student.DallasCollege.edu">E-mail the Webmaster</a>
+    </footer>
+</body>
+
+</html>
