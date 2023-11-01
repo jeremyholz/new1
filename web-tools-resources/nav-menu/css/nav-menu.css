@@ -1,5 +1,7 @@
 /* Set nav to sticky or fixed */
-
+.posnav {
+  position: -webkit-sticky;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
